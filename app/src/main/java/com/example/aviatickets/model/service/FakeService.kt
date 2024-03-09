@@ -6,7 +6,7 @@ import com.example.aviatickets.model.entity.Location
 import com.example.aviatickets.model.entity.Offer
 import java.util.UUID
 
-object FakeService {
+/*object FakeService {
 
     val offerList = listOf(
         Offer(
@@ -120,4 +120,4 @@ object FakeService {
             )
         )
     )
-}
+}*/

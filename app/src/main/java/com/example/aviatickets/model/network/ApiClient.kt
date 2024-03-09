@@ -6,9 +6,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("YOUR_BASE_URL")
+        .baseUrl("https://my-json-server.typicode.com/estharossa/fake-api-demo/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
+
+    val instance = retrofit.create(OfferService::class.java)
 
     /**
      * think about performing network request
